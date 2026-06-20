@@ -55,7 +55,7 @@ The platform combines machine learning predictions with road network graph analy
 
 The output is surfaced through an interactive operations dashboard that ranks incidents by expected disruption, enabling faster and more informed dispatch decisions.
 
-![SENTINELA Operations Dashboard Overview](Screenshots/dashboard-overview.png)
+![SENTINELA Operations Dashboard Overview](Screenshots/dashboard-overview.png.png)
 *The SENTINELA Command Center — live incident counts, average city-wide CRS, response readiness, and the highest-risk corridor surfaced at a glance.*
 
 ## 4. System Architecture
@@ -100,7 +100,7 @@ CRS = f( Closure Probability, Predicted Duration, Road Centrality )
 
 These three signals are combined into a normalized score that reflects **expected city-wide disruption**, allowing incidents to be ranked on a common scale regardless of their individual severity label.
 
-![Cascade Risk Score Breakdown](Screenshots/crs-analysis.png)
+![Cascade Risk Score Breakdown](Screenshots/crs-analysis.png.png)
 *INC-1007 scored CRS 88 (Critical) — driven primarily by a 97% closure probability, despite only moderate road centrality. This is the exact case severity-only triage would underrank.*
 
 ## 6. Dashboard Features
@@ -113,13 +113,13 @@ The Traffic Operations Dashboard is the operator-facing layer of SENTINELA, buil
 - **Incident Intelligence Panel** — Drill-down view of closure probability, predicted duration, and road centrality for a selected incident
 - **Dispatch Recommendations** — Suggested response priority based on computed CRS
 
-![Bengaluru Risk Map and Incident Intelligence Panel](Screenshots/bengaluru-risk-map.png)
+![Bengaluru Risk Map and Incident Intelligence Panel](Screenshots/bengaluru-risk-map.png.png)
 *Incidents plotted on the live Bengaluru road network, color-coded by risk tier. Selecting a marker opens the Incident Intelligence panel with a full CRS breakdown.*
 
-![Live Dispatch Incident Queue](Screenshots/dispatch-prioritization.png)
+![Live Dispatch Incident Queue](Screenshots/dispatch-prioritization.png.png)
 *The Live Dispatch Queue, ranked by Cascade Risk Score rather than report order — operators see the highest-consequence incident first, every time.*
 
-![Corridor Analysis — Incident Trends and Top Impacted Corridors](Screenshots/corridor-analysis.png)
+![Corridor Analysis — Incident Trends and Top Impacted Corridors](Screenshots/corridor-analysis.png.png)
 *24-hour incident trend alongside the top impacted corridors by combined CRS, helping operators spot which corridors are absorbing repeated disruption.*
 
 ## 7. Technology Stack
@@ -185,7 +185,7 @@ SENTINELA/
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/sentinela.git
+git clone https://github.com/<sheetalkumari2004-del>/sentinela.git
 cd sentinela
 
 # Create and activate a virtual environment
@@ -224,10 +224,10 @@ Across simulated and historical Bengaluru incident scenarios, SENTINELA's networ
 
 The core finding: **incident severity and incident consequence are not the same thing** — and treating them as interchangeable is where current triage systems lose time that SENTINELA is built to recover.
 
-![Critical Incident Escalation in the Command Center](Screenshots/critical-incident.png)
+![Critical Incident Escalation in the Command Center](Screenshots/critical-incident.png.png)
 *A Critical-tier incident (CRS 88) driving the command center into "Elevated Operations" status — the highest single incident determines overall posture, not the average.*
 
-![Demo Scenario — Comparing Two Live Incidents](Screenshots/demo-scenario.png)
+![Demo Scenario — Comparing Two Live Incidents](Screenshots/demo-scenario.png.png)
 *Side-by-side: INC-1007 (CRS 88, Critical) versus INC-2001 (CRS 34, Moderate) on the same corridor — the same map, two very different dispatch priorities.*
 
 ## 12. Future Scope
