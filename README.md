@@ -1,4 +1,9 @@
 # SENTINELA
+## Live Demo
+
+Streamlit Deployment: https://sentinela-dmadwhf49unieaxvdfozdi.streamlit.app/
+
+GitHub Repository: https://github.com/sheetalkumari2004-del/SENTINELA
 
 ### Not Every Incident Deserves the Same Response. SENTINELA Tells You Which Ones Do.
 
