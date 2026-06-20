@@ -1,0 +1,15 @@
+feature,gain_importance,split_importance
+event_cause,120644539.0,26
+latitude,27360243.369140625,138
+veh_type,24059833.700683594,25
+snap_distance_m,22472175.124023438,147
+centrality_score,20430200.956054688,129
+longitude,18650076.11767578,106
+day_of_week,10112518.208007812,39
+hour_of_day,8811293.979980469,94
+month,2003882.4111328125,32
+zone,1997696.0,4
+corridor,263949.892578125,10
+is_planned,0.0,0
+low_confidence_snap,0.0,0
+junction,0.0,0
