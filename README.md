@@ -54,6 +54,17 @@ The platform combines machine learning predictions with road network graph analy
 **"If we ignore this incident right now, how much disruption will it cause across the city?"**
 
 The output is surfaced through an interactive operations dashboard that ranks incidents by expected disruption, enabling faster and more informed dispatch decisions.
+Demo Scenario:
+Accident reported on Hosur Road.
+
+Closure Probability: 97%
+Predicted Duration: 75 minutes
+Road Centrality: 0.0052
+
+Cascade Risk Score = 88 (Critical)
+
+System Recommendation:
+Immediate dispatch and traffic diversion.
 
 ![SENTINELA Operations Dashboard Overview](Screenshots/dashboard-overview.png.png)
 *The SENTINELA Command Center — live incident counts, average city-wide CRS, response readiness, and the highest-risk corridor surfaced at a glance.*
